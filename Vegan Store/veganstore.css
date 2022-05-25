@@ -1,0 +1,621 @@
+.navcontent {
+    display: flex;
+    margin-left: auto;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-left: 400px;
+}
+
+.menu-item i {
+    padding-left: 4px;
+}
+
+.dropdown {
+    width: 150px;
+    border-top: 2px solid rgb(170, 210, 54);
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.dropdown a:last-of-type {
+    border: none;
+}
+
+.dropdown-wrapper:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover {
+    display: block;
+}
+
+.dropdown-wrapper {
+    position: relative;
+}
+
+#full {
+    font-size: 14px;
+}
+
+.menu-items {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-items i {
+    padding-left: 4px;
+}
+
+nav {
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    float: right;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+}
+
+.button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+#btn-submit {
+    font-size: 16px;
+}
+
+#logo {
+    width: 40px;
+}
+
+body {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#main-text-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#description {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    font-family: 'Poppins', sans-sarif;
+    margin-top: 32px;
+}
+
+#main-text-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-sarif;
+}
+
+.step-item {
+    padding: 112px 48px;
+    color: white;
+    font-size: 96px;
+    transition: all 0.3s;
+}
+
+#new {
+    font-weight: 600;
+    Font-size: 24px
+}
+
+#disc {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+#first-step {
+    background-color: #5acda6;
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+    box-sizing: border-box;
+}
+
+#second-step {
+    background-color: #91ac41;
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+    box-sizing: border-box;
+}
+
+#third-step {
+    background-color: #e4b476;
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+    box-sizing: border-box;
+}
+
+#fourth-step {
+    background-color: #f69dad;
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+    box-sizing: border-box;
+}
+
+#step-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#heading {
+    text-align: center;
+}
+
+#store-section {
+    width: 100%;
+    background-color: #f7eee2;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+#fresh-food-heading {
+    color: #91ac41;
+    font-size: 24px;
+    margin-top: 35px;
+    text-align: center;
+    display: block;
+    font-family: 'Caveat', cursive;
+}
+
+#store-section>h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#store-desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 55px;
+    color: #8b8b99;
+}
+
+#store-items-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon-wrapper i {
+    font-size: 60px;
+    color: black;
+}
+
+h3 {
+    display: block;
+}
+
+.store-item p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+p {
+    display: block;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#testimonials-section {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: white;
+}
+
+#testimonials-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin-top: 35px;
+}
+
+#testimonials-section>h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#testimonials-desc {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: 8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+#testimonials-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-item {
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+
+.testimonial-item img {
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.testimonials-message {
+    font: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+.testimonial-item h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    display: block;
+}
+
+.job-role {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#left-section {
+    width: 66%;
+    display: inline-block;
+    margin: 0;
+}
+
+#left-section img {
+    width: 100%;
+}
+
+#right-section {
+    width: 32%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+
+#right-section #text-wrapper {
+    margin: 115px;
+}
+
+#right-section #text-wrapper h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+#right-section #text-wrapper p {
+    color: #8b8b99;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+
+#subscribe-btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+#follow-section {
+    display: flex;
+    justify-content: stretch;
+}
+
+#stats-section {
+    width: 100%;
+    background-color: #f6fcfa;
+}
+
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+
+.stats-item {
+    width: 25%;
+    padding: 0 64px;
+}
+
+.stats-item h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.stats-item p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+#video-section>div {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#video-section {
+    background: white;
+    margin-top: 0;
+}
+
+#video-section h3 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+#line-separator {
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#video-section iframe {
+    width: 100%;
+    height: 425px;
+}
+
+#address-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    background-color: white;
+}
+
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.section-heading {
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+#address-wrapper>div {
+    width: 50%;
+}
+
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+#address-wrapper>div:last-of-type {
+    width: 40%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btn-submit {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#address-section {
+    background-color: white;
+    top: 0;
+}
+
+#btn-submit {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.fas:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.far:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.fab:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.3);
+}
